@@ -1,0 +1,69 @@
+.ball{
+    border-radius: 50%;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    top: 60%;
+    animation-name: jump;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+   
+  }
+  
+  #purple{
+    background: #1abc9c;
+    left: 10%;
+    animation-timing-function: linear;
+  }
+  
+  #lime{
+    background: rgb(46, 204, 113);
+    left: 20%;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+    
+  }
+  #olive{
+    background: rgb(52, 152, 219);
+    left: 30%;
+    animation-timing-function: ease-out;
+  }
+  
+  #aqua{
+    background: #d35400;
+    left : 40%;
+    animation-timing-function: linear;
+  }
+  #maroon{
+     background: rgb(52, 73, 94);
+    left: 50%;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+  }
+  
+  #sia{
+    background: rgb(241, 196, 15);
+    left: 60%;
+    animation-timing-function: ease-out;
+  }
+  
+  #pusp{
+    background: rgb(192, 57, 43);
+    left: 70%;
+    animation-timing-function: linear;
+  }
+  #navy{
+    background: rgb(230, 126, 34);
+    left: 80%;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+  }
+  #teal{
+    background: #008080;
+    left: 90%;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes jump{
+    50%{
+      top: 20%;
+    }
+  }
